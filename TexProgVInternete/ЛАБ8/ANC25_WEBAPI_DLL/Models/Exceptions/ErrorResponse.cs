@@ -1,1 +1,0 @@
-﻿public record ErrorResponse(int StatusCode, string Title, string Detail);

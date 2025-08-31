@@ -1,6 +1,0 @@
-﻿{
-  "Celebrities": {
-    "PhotosFolder": "E:\\TexProgVInternete\\ЛАБ6\\Celebrities_Photos",
-    "ConnectionString": "Server=localhost\\SERVERVILKI;Database=Lab6_Db; Trusted_Connection=true; TrustServerCertificate=Yes"
-  }
-}
