@@ -1,0 +1,24 @@
+﻿/* index.css */
+
+/* Раскрашиваем результаты */
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.magenta {
+    color: magenta;
+}
+
+.blue {
+    color: blue;
+}
+
+/* Небольшая стилизация заголовка */
+h1 {
+    font-size: 2em;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Full Image</title>
+    <style>
+        /* Убираем отступы и делаем фон чёрным */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            /* Выравниваем содержимое по центру */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Занимаем всю высоту и ширину экрана */
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Ограничиваем картинку, чтобы она не выходила за экран */
+        img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <img src="jpg/Neumann.jpg" alt="Neumann" />
+</body>
+</html>

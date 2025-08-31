@@ -1,0 +1,400 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #222;
+  line-height: 1.4;
+  background: #fff;
+  padding: 0 260px;
+}
+.hedas{
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ───── HEADER ───────────────────────────────────────── */
+.site-header .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.btn-menu {
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 40px;
+}
+
+.katalog{
+  margin-top: 15px;
+  margin-left: -10px;
+  margin-top: 6px;
+}
+
+.phone {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-left: 40px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: 650px;
+
+}
+
+.user-nav {
+  display: flex;
+  gap: 24px;
+}
+
+.header-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.75rem;
+  color: inherit;
+}
+
+.header-search img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.benef-block {
+  display: flex;
+  max-width: 230px;
+}
+
+.benef-img {
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+}
+
+.site-header .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
+  padding: 10px 0;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.main-nav a:hover {
+  color: #000;
+}
+
+/* ───── MAIN  ───────────────────────────── */
+.product-page {
+  display: flex;
+  gap: 60px;
+  margin: 40px 0;
+}
+
+.gallery {
+  flex: 1;
+  display: flex;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-right: 20px;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover,
+.thumbnails img.active {
+  border-color: #000;
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+}
+.afwe{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.footer-block{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PRODUCT INFO */
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.sku {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.colors,
+.sizes {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.otziv-link{
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.color-dot {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color-dot.blue {
+  background: #0033cc;
+}
+
+.color-dot.black {
+  background: #000;
+}
+
+.color-dot.gray {
+  background: #888;
+}
+
+
+.review-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.review-actions {
+  display: flex;
+  justify-content: right;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.review-actions img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity .2s;
+}
+
+.review-actions img:hover {
+  opacity: 1;
+  display: inline-block;
+}
+
+
+.sizes .size {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.sizes .size.active {
+  border-color: #000;
+  font-weight: 600;
+}
+
+.size-chart {
+  margin-left: 15px;
+  font-size: 0.8rem;
+  color: #979797;
+}
+
+.price {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-add {
+  padding: 10px 20px;
+  background: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 263px;
+  height: 53px;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.btn-wish {
+  display: inline;
+  font-size: 1.25rem;
+  background: none;
+  border: 1px solid #ccc;
+  width: 52px;
+  height: 53px;
+  border-radius: 400px;
+  cursor: pointer;
+}
+
+.imga {
+  display: block;
+  margin-top: 3px;
+  margin-left: 10px;
+  width: 30px;
+  height: 32px;
+}
+
+.benefits {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.description {
+  margin-top: 24px;
+}
+
+.description h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+
+.reviews {
+  padding: 10px 0;
+}
+
+.reviews h3 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.reviews-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 5px;
+}
+
+.review-card {
+  padding: 5px;
+  border-radius: 6px;
+}
+.footer-img{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.header-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.review-header {
+  display: flex;
+  
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.review-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* ───── FOOTER ──────────────────────────────────────── */
+.site-footer {
+  background: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 24px;
+}
+
+.footer-col h4 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col a,
+.footer-col p {
+  font-size: 0.9rem;
+  color: #444;
+  text-decoration: none;
+}
+
+.footer-col form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+

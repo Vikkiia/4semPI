@@ -1,0 +1,6 @@
+﻿{
+  "Celebrities": {
+    "PhotosFolder": "photo",
+    "ConnectionString": "Server=user;Database=Life Events of  Celebrities;Trusted_Connection=True;User Id=sa;Password=sa;TrustServerCertificate=True;"
+  }
+}

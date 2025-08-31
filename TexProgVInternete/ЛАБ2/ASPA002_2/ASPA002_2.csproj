@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Picture\**" />
+    <Content Remove="wwwroot\Picture\**" />
+    <EmbeddedResource Remove="wwwroot\Picture\**" />
+    <None Remove="wwwroot\Picture\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Css\index.css" />
+    <None Include="wwwroot\js\Calc.js" />
+    <None Include="wwwroot\Neumann.html" />
+    <None Include="wwwroot\page2.html" />
+  </ItemGroup>
+
+</Project>

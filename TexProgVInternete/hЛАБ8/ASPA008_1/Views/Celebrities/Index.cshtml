@@ -1,0 +1,14 @@
+﻿@model IEnumerable<DAL_Celebrity_MSSQL.Celebrity>
+@{
+    ViewData["Title"] = "Все знаменитости";
+}
+
+<h1>Все знаменитости</h1>
+
+<div class="">
+    <a asp-action="NewHumanForm" class="imgBox"> <img src="/Photos/diamond.jpg" alt="Alternate Text" /> </a>
+    @foreach (var celebrity in Model)
+    {
+            @Html.CelebrityFoto(celebrity, 200, 200) @* Использование HTML-хелпера *@
+    }
+</div>
